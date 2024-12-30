@@ -9,40 +9,43 @@
   <link href="styles.css" rel="stylesheet"> <!-- Link to CSS file -->
 </head>
 <body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Antimonitor101 Gallery</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav mx-auto">
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">exhibitions</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Antimonitor101 Gallery</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#exhibitions">Exhibitions</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#artist">The Artist</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
 
   <div class="hero-section">
     <h1>Welcome to the Gallery</h1>
     <p>Explore the finest artworks and exhibitions</p>
-    <a href="#gallery" class="btn btn-primary">View Gallery</a>
   </div>
   
   <!-- Gallery Section -->
-  <section class="container py-5">
+
+  <section id="exhibitions" style="background-color: #faf3e0; padding: 50px 20px;"> class="container py-5">
     <div class="row">
       <!-- Card 1 -->
       <div class="col-md-4">
@@ -51,7 +54,6 @@
           <div class="card-body">
             <h5 class="card-title">Castlevania Nocturne</h5>
             <p class="card-text">Castlevania: Nocturne is an American adult animated television series created and written by Clive Bradley </p>
-            <a href="#" class="btn btn-primary">Read More</a>
           </div>
         </div>
       </div>
@@ -62,7 +64,6 @@
           <div class="card-body">
             <h5 class="card-title">Day 31 of background</h5>
             <p class="card-text">Experience a plethora of exhibitions celebrating African cultures.</p>
-            <a href="#" class="btn btn-primary">Read More</a>
           </div>
         </div>
       </div>
@@ -73,7 +74,6 @@
           <div class="card-body">
             <h5 class="card-title">Echo</h5>
             <p class="card-text">Ekko is a major character appearing in Arcane. One of many children who grew up in the Lanes.</p>
-            <a href="#" class="btn btn-primary">Read More</a>
         </div>
     </div>
   </div>
@@ -84,7 +84,6 @@
           <div class="card-body">
             <h5 class="card-title">African art</h5>
             <p class="card-text">African art, the visual arts of native Africa, particularly sub-Saharan Africa, including such media as sculpture, painting.</p>
-            <a href="#" class="btn btn-primary">Read More</a>
         </div>
     </div>
   </div>
@@ -95,7 +94,6 @@
           <div class="card-body">
             <h5 class="card-title">Ms Void</h5>
             <p class="card-text">Experience a plethora of exhibitions celebrating African cultures.</p>
-            <a href="#" class="btn btn-primary">Read More</a>
         </div>
       </div>
     </div>
@@ -104,17 +102,63 @@
         <div class="card shadow-sm">
           <img src="images\IMG_8991.jpeg" class="card-img-top" alt="Art 2">
           <div class="card-body">
-            <h5 class="card-title">Ms Void</h5>
+            <h5 class="card-title">Silco Arcane</h5>
             <p class="card-text">Silco was a major supporting antagonist in Season 1 of Arcane, and he was the second adopted father of Jinx</p>
-            <a href="#" class="btn btn-primary">Read More</a>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- Artist Section -->
+<section id="artist" style="background-color: #faf3e0; padding: 50px 20px;">
+    <div class="container text-center">
+      <h2 style="font-family: 'Poppins', sans-serif; color: #333; margin-bottom: 20px;">The Artist</h2>
+      <p style="color: #555; margin-bottom: 30px; font-size: 1.2rem;">
+        "Art is not just a passion; it's the language of my soul. Each stroke tells a story, 
+        each color conveys an emotion. Welcome to my gallery, where dreams and creativity collide."
+      </p>
+      <img src="images/IMG_5048.jpg" alt="Artist" style="border-radius: 50%; width: 150px; height: 150px; margin-top: 20px;">
+      <p style="color: #777; font-style: italic; margin-top: 15px;">— Antimonitor101</p>
+    </div>
+  </section>
+
+  <!-- Large Picture Section -->
+<section style="padding: 10;">
+    <img src="images/IMG_8993.jpeg" alt="Gallery Showcase" style="width: 75%; height: auto; display: block;">
+  </section>
+  
+  
+
+  <!-- Contact Section -->
+<section id="contact" style="background-color: #f8f9fa; padding: 50px 20px;">
+    <div class="container text-center">
+        <h2 style="font-family: 'Poppins', sans-serif; color: #333; margin-bottom: 20px;">Get in Touch</h2>
+        <p style="color: #555; margin-bottom: 30px;">I'd love to hear from you! Feel free to reach out anytime.</p>
+        <form id="contact-form" style="max-width: 600px; margin: 0 auto;">
+            <div style="margin-bottom: 15px;">
+                <input type="text" placeholder="Your Name" required 
+                    style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+            </div>
+            <div style="margin-bottom: 15px;">
+                <input type="email" placeholder="Your Email" required 
+                    style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+            </div>
+            <div style="margin-bottom: 15px;">
+                <textarea placeholder="Your Message" required 
+                    style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px; height: 100px;"></textarea>
+            </div>
+            <button type="submit" 
+                style="background-color: #333; color: #fff; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+                Send Message
+            </button>
+        </form>
+    </div>
+</section>
+
+
   <!-- Footer -->
   <footer class="bg-dark text-white text-center py-3">
-    <p>&copy; 2024 Antimonitor101 | All Rights Reserved</p>
+    <p>&copy; 2024 Bettinalisah | All Rights Reserved</p>
   </footer>
 
   <!-- Bootstrap JS -->
