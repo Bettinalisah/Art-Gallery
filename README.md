@@ -15,4 +15,3 @@ The **Art Gallery Website** is a simple and elegant web application showcasing a
 
    ## File Structure
 
-![Website Screenshot](screenshot(1).png)
