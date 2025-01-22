@@ -14,4 +14,4 @@ The **Art Gallery Website** is a simple and elegant web application showcasing a
    git clone https://github.com/Bettinalisah/Art-Gallery.git
 
    ## File Structure
-
+![Website Screenshot](screenshot(1).png)
